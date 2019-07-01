@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/semeniuk/upwork-telegram-bot#readme",
   "dependencies": {
+    "fastify": "^2.6.0",
+    "request": "^2.88.0",
     "telegraf": "^3.30.1"
   }
 }
