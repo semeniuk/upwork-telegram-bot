@@ -1,0 +1,27 @@
+{
+  "name": "upwork-telegram-bot",
+  "version": "0.0.1",
+  "description": "Upwork Telegram Bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semeniuk/upwork-telegram-bot.git"
+  },
+  "keywords": [
+    "Upwork",
+    "Telegram",
+    "Bot"
+  ],
+  "author": "Yurii Semeniuk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/semeniuk/upwork-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/semeniuk/upwork-telegram-bot#readme",
+  "dependencies": {
+    "telegraf": "^3.30.1"
+  }
+}
