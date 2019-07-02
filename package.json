@@ -4,6 +4,8 @@
   "description": "Upwork Telegram Bot",
   "main": "index.js",
   "scripts": {
+    "forever-start": "cross-env PORT=8051 RUNNING_FOREVER=1 cross-var forever start -a -l $INIT_CWD/logs/forever.log --uid upwork-telegram-bot index.js",
+    "forever-stop": "forever stop upwork-telegram-bot",
     "start": "node index.js"
   },
   "repository": {
@@ -22,6 +24,8 @@
   },
   "homepage": "https://github.com/semeniuk/upwork-telegram-bot#readme",
   "dependencies": {
+    "cross-env": "^5.2.0",
+    "cross-var": "^1.1.0",
     "fastify": "^2.6.0",
     "request": "^2.88.0",
     "telegraf": "^3.30.1"
